@@ -1,0 +1,86 @@
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Runner: processes
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Chooser: simple
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration suite_name = "testes"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration cache_filename = "/home/pedrocasais/pf/oUnit-$(suite_name).cache"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration run_gc_full_major = "true"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration display = "true"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration results_style_1_X = "false"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration testdata_dir = "none"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration health_check_interval = "1."
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration verbose = "false"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration chooser = "simple"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration output_html_dir = "none"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration processes_kill_period = "5."
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration runner = "processes"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration shards = "6"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration processes_grace_period = "5."
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration log_encoding = "utf-8"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration output_junit_file = "none"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration ci = "false"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Configuration output_file = "/home/pedrocasais/pf/oUnit-$(suite_name)-$(shard_id).log"
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Using 6 workers maximum.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Starting worker number LAPTOP-GM2UVM0V#01.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Worker LAPTOP-GM2UVM0V#01 started.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Starting worker number LAPTOP-GM2UVM0V#02.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Worker LAPTOP-GM2UVM0V#02 started.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Starting worker number LAPTOP-GM2UVM0V#03.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Worker LAPTOP-GM2UVM0V#03 started.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Still 3 tests running : testes:2:dois, testes:1:um, testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 3 tests running: testes:2:dois, testes:1:um, testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 I: Start test testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#02 I: Start test testes:1:um.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Still 3 tests running : testes:2:dois, testes:1:um, testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 3 tests running: testes:2:dois, testes:1:um, testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 E: Test testes:0:vazio has failed.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 E: not equal in test testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 E: Called from unknown location
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 E: 
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Still 3 tests running : testes:2:dois, testes:1:um, testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 3 tests running: testes:2:dois, testes:1:um, testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 I: End test testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#03 I: Start test testes:2:dois.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Still 3 tests running : testes:2:dois, testes:1:um, testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 3 tests running: testes:2:dois, testes:1:um, testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Still 2 tests running : testes:2:dois, testes:1:um.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 2 tests running: testes:2:dois, testes:1:um.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#02 I: Test testes:1:um is successful.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Still 2 tests running : testes:2:dois, testes:1:um.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 2 tests running: testes:2:dois, testes:1:um.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#02 I: End test testes:1:um.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Still 2 tests running : testes:2:dois, testes:1:um.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 2 tests running: testes:2:dois, testes:1:um.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Still 1 tests running : testes:2:dois.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 1 tests running: testes:2:dois.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#03 I: Test testes:2:dois is successful.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Still 1 tests running : testes:2:dois.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 1 tests running: testes:2:dois.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#03 I: End test testes:2:dois.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Still 1 tests running : testes:2:dois.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 1 tests running: testes:2:dois.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: 0 tests running: .
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Worker LAPTOP-GM2UVM0V#01 has ended.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Worker LAPTOP-GM2UVM0V#02 has ended.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Worker LAPTOP-GM2UVM0V#03 has ended.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Used 3 worker during test execution.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Run 1 tests with shard LAPTOP-GM2UVM0V#01.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Run 1 tests with shard LAPTOP-GM2UVM0V#02.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Run 1 tests with shard LAPTOP-GM2UVM0V#03.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Check health of shard LAPTOP-GM2UVM0V#01, 7 times.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Check health of shard LAPTOP-GM2UVM0V#02, 4 times.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Check health of shard LAPTOP-GM2UVM0V#03, 1 times.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: ==============
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Summary:
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Test testes:2:dois is successful.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Test testes:1:um is successful.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 E: Test testes:0:vazio has failed.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 E: not equal in test testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 E: Called from unknown location
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 E: 
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Ran: 3 tests in: 0.10 seconds.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Cases: 3.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Tried: 3.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Errors: 0.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Failures: 1.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Skip: 0.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Todo: 0.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#00 I: Timeout: 0.

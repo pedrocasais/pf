@@ -1,0 +1,30 @@
+let check s = 
+  let rec aux pos fams tam =
+    if pos + 1 <= tam then  
+      if fams < 0 then false else
+      match s.[pos] with
+      | 'H' -> aux (pos +1) (fams +1) tam
+      | 'C' -> aux (pos +1) fams tam
+      | 'A' -> 
+        let ant = s.[pos - 1] in
+        let next = s.[pos +1 ] in  
+        if ant = 'C' && next = 'C' then aux (pos +1) fams tam else false
+      | 'M' -> aux (pos +1) (fams - 1) tam
+      | _ -> false
+    else 
+      if fams = 0 then true else false
+
+  in aux 0 0 (String.length s)
+
+
+let () =  
+  (*let string2 = "HHMCM" in*)
+  let read = read_line() in
+  (*print_string read;*)
+  if read.[0] <> 'H' || read.[String.length read -1] <> 'M' then print_string "NO" else
+   if check read = true then print_string "YES" else print_string "NO";
+  print_newline
+()
+
+
+(*    HMHMHMHHHMMMHMMHMHHHMM   *)

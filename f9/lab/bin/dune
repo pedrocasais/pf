@@ -1,0 +1,5 @@
+(executable
+ (public_name lab)
+ (name main)
+ (libraries lab zarith))
+ 

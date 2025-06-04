@@ -1,0 +1,18 @@
+(*let a s =
+  let rec f s c lst =
+  if c = 0 then lst else
+    if c = 1 then [s] else
+    f s c (s.[c] :: lst)
+  in f s (String.length s) []*)
+
+let rec ba s c =
+  if c < 0 then [] else (String.make 1 s.[c]) :: ba s (c-1)
+    
+let a lst = 
+  let rec check lst curr =
+    match lst with
+    | [] -> true
+    | [e;e2] -> if e = "H" && e2 = "M" then true else false
+    | hd :: tl -> if hd = "H" then check tl (hd ::curr) else false
+in check lst []
+

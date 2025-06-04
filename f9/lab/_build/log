@@ -1,0 +1,23 @@
+# dune exec ./main.exe
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/pedrocasais/.cache/dune/db
+# Workspace root: /home/pedrocasais/pf/f9/lab
+# Auto-detected concurrency: 12
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/pedrocasais/.opam/cs3110-2024sp/bin/ocamlc.opt -config > /tmp/dune_54b753_output
+$ (cd _build/default && /home/pedrocasais/.opam/cs3110-2024sp/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I /home/pedrocasais/.opam/cs3110-2024sp/lib/zarith -I lib/.lab.objs/byte -I lib/.lab.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+> File "bin/main.ml", line 61, characters 37-47:
+> 61 |       Printf.printf "%s\n" (memo_rec (bell_r n) |> string_of_int)
+>                                           ^^^^^^^^^^
+> Error: This expression has type Z.t but an expression was expected of type
+>          ('a -> 'b) -> 'a -> 'b
+[2]

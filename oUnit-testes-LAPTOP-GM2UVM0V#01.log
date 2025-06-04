@@ -1,0 +1,6 @@
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 I: Start test testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 E: Test testes:0:vazio has failed.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 E: not equal in test testes:0:vazio.
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 E: Called from unknown location
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 E: 
+2025-05-28T16:33:10+00:00 LAPTOP-GM2UVM0V#01 I: End test testes:0:vazio.
