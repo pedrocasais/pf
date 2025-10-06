@@ -1,0 +1,4 @@
+(executable
+ (name lab2)
+ (libraries unix str)
+)
